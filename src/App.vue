@@ -27,6 +27,7 @@
                 />
             </div>
         </div>
+        <a href="https://github.com/BrunoSumar/calculator-frontendmentor">Repositório Github</a>
     </div>
 </template>
 
@@ -90,15 +91,6 @@
 </script>
 
 <style>
- body {
-     margin: 0;
-     border: 0;
-     padding: 0;
-
-     width: 100vw;
-     height: 100vh;
- }
-
  #app{
      background: #3b4664;
      display: flex;
@@ -218,6 +210,13 @@
      border-radius: .8rem;
  }
 
+ a {
+     position: fixed;
+     bottom: 1rem;
+     left: 1rem;
+     color: white;
+ }
+
  @font-face {
      font-family: 'Spartan';
      src: url('/Spartan-VariableFont_wght.ttf');
@@ -230,7 +229,7 @@
      background: #e6e6e6 !important;
  }
 
- .light div {
+ .light div, .light a{
      color: #353529 !important;
  }
 
